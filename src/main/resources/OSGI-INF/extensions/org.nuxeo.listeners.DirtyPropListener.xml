@@ -1,0 +1,13 @@
+<component name="org.nuxeo.listeners.listener.contrib.DirtyPropListener">
+
+  <extension target="org.nuxeo.ecm.core.event.EventServiceComponent"
+    point="listener">
+
+    <listener name="dirtyproplistener" async="false" postCommit="false"
+      class="org.nuxeo.listeners.DirtyPropListener" priority="100">
+      <event>aboutToCreate</event>
+      <event>beforeDocumentModification </event>
+    </listener>
+  </extension>
+
+</component>
