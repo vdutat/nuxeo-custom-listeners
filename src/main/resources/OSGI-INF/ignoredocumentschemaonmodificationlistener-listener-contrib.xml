@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<component name="org.nuxeo.listeners.listener.ignoredocumentschemaonmodificationlistener">
+
+  <extension target="org.nuxeo.ecm.core.event.EventServiceComponent" point="listener">
+    <listener name="ignoredocumentschemaonmodificationlistener"
+      class="org.nuxeo.listeners.IgnoreDocumentSchemaOnModificationListener">
+        <event>beforeDocumentModification</event>
+    </listener>
+  </extension>
+
+</component>
