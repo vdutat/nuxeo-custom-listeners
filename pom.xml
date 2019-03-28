@@ -5,11 +5,11 @@
   <parent>
     <groupId>org.nuxeo</groupId>
     <artifactId>nuxeo-addons-parent</artifactId>
-    <version>6.0</version>
+    <version>8.10</version>
   </parent>
   <groupId>org.nuxeo</groupId>
   <artifactId>nuxeo-custom-listeners</artifactId>
-  <version>1.0</version>
+  <version>1.2-SNAPSHOT</version>
   <name>nuxeo-custom-listeners</name>
   <description/>
   <dependencies>
@@ -56,6 +56,20 @@
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>jcl-over-slf4j</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>commons-logging</groupId>
+      <artifactId>commons-logging</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.google.inject</groupId>
+      <artifactId>guice</artifactId>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <scope>test</scope>
     </dependency>
   </dependencies>
 </project>
