@@ -7,5 +7,6 @@ Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Bundle-ManifestVersion: 2
 Bundle-Vendor: Nuxeo
-Nuxeo-Component: OSGI-INF/extensions/org.nuxeo.listeners.DirtyPropList
- ener.xml,OSGI-INF/ignoredocumentschemaonmodificationlistener-listener-contrib.xml
+Nuxeo-Component: OSGI-INF/extensions/org.nuxeo.listeners.DirtyPropListener.xml,
+ OSGI-INF/ignoredocumentschemaonmodificationlistener-listener-contrib.xml,
+ OSGI-INF/documentnamegeneratorlistener-listener-contrib.xml

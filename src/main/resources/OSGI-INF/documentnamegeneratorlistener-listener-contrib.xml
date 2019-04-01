@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<component name="org.nuxeo.listeners.listener.documentnamegeneratorlistener">
+
+  <extension target="org.nuxeo.ecm.core.event.EventServiceComponent" point="listener">
+    <listener name="documentnamegeneratorlistener" priority="1999"
+      class="org.nuxeo.listeners.DocumentNameGeneratorListener">
+        <event>aboutToCreate</event>
+        <event>aboutToImport</event>
+    </listener>
+  </extension>
+
+</component>
