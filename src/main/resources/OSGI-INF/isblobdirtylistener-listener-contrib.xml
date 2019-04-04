@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<component name="org.nuxeo.listeners.listener.isblobdirtylistener">
+
+  <extension target="org.nuxeo.ecm.core.event.EventServiceComponent" point="listener">
+    <listener name="isblobdirtylistener"
+      class="org.nuxeo.listeners.IsBlobDirtyListener">
+        <event>beforeDocumentModification</event>
+    </listener>
+  </extension>
+
+</component>
